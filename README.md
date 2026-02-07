@@ -74,7 +74,7 @@ pip install tensorflow numpy pandas matplotlib seaborn scikit-learn opencv-pytho
    - Upload to Google Colab or local directory
 
 
-```
+
 
 ##  Methodology
 
@@ -238,6 +238,7 @@ print(f"Prediction: {result} (confidence: {prediction[0][0]:.2%})")
 
 **Issue**: Overfitting  
 **Solution**: Increase dropout rate or use more aggressive data augmentation
+
 
 ##  Technical Details
 
