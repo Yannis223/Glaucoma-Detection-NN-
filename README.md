@@ -73,26 +73,7 @@ pip install tensorflow numpy pandas matplotlib seaborn scikit-learn opencv-pytho
    - Compress into a ZIP file
    - Upload to Google Colab or local directory
 
-## 📁 Project Structure
 
-```
-glaucoma-detection/
-│
-├── NeuralNetworksGlaucoma.ipynb    # Main Jupyter notebook
-├── README.md                        # This file
-│
-├── data/
-│   ├── raw_images/                 # Original images (extracted)
-│   │   ├── glaucoma/
-│   │   └── normal/
-│   └── resized_images/             # Preprocessed images (224x224)
-│       ├── glaucoma/
-│       └── normal/
-│
-└── outputs/
-    ├── models/                     # Trained model weights
-    ├── plots/                      # Visualization outputs
-    └── architectures/              # Model architecture diagrams
 ```
 
 ##  Methodology
