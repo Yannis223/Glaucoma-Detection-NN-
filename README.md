@@ -2,7 +2,7 @@
 
 A comprehensive deep learning project for automated glaucoma detection from retinal fundus images using CNN, VGG16, and MobileNetV2 architectures.
 
-## 📋 Overview
+##  Overview
 
 This project implements and compares three deep learning models for binary classification of retinal images to detect glaucoma. The models achieve high accuracy through transfer learning, fine-tuning, and K-Fold cross-validation.
 
@@ -10,7 +10,7 @@ This project implements and compares three deep learning models for binary class
 
 **Best Performance**: Custom CNN - 98% accuracy
 
-## 🎯 Features
+##  Features
 
 - **Three Model Architectures**:
   - Custom CNN (built from scratch)
@@ -30,7 +30,7 @@ This project implements and compares three deep learning models for binary class
   - ROC curves and AUC scores
   - Statistical comparison (Kruskal-Wallis test)
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -94,7 +94,7 @@ glaucoma-detection/
     └── architectures/              # Model architecture diagrams
 ```
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
 - **Image Resizing**: All images resized to 224×224 pixels
@@ -155,7 +155,7 @@ Input (224×224×3)
 - Stratified splits
 - Performance averaging across folds
 
-## 📊 Results
+##  Results
 
 ### Model Comparison
 
@@ -190,7 +190,7 @@ The project generates the following visualizations:
 6. **Model Architectures**: Visual flowcharts of network structures
 7. **Comparative Bar Charts**: Side-by-side performance metrics
 
-## 💻 Usage
+##  Usage
 
 ### Running the Complete Pipeline
 
@@ -232,7 +232,7 @@ result = "Glaucoma" if prediction[0][0] < 0.5 else "Normal"
 print(f"Prediction: {result} (confidence: {prediction[0][0]:.2%})")
 ```
 
-## 🔍 Key Findings
+##  Key Findings
 
 1. **Custom CNN outperformed transfer learning models** for this specific dataset
 2. **Fine-tuning significantly improved** VGG16 and MobileNetV2 performance
@@ -240,7 +240,7 @@ print(f"Prediction: {result} (confidence: {prediction[0][0]:.2%})")
 4. **Batch normalization and dropout** were crucial for generalization
 5. **K-Fold validation confirmed** model stability and reliability
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 **Issue**: Out of memory errors  
 **Solution**: Reduce batch size or use Google Colab with GPU
@@ -254,7 +254,7 @@ print(f"Prediction: {result} (confidence: {prediction[0][0]:.2%})")
 **Issue**: Overfitting  
 **Solution**: Increase dropout rate or use more aggressive data augmentation
 
-## 📚 Technical Details
+##  Technical Details
 
 ### Hyperparameters
 
@@ -287,13 +287,13 @@ datagen = ImageDataGenerator(
 )
 ```
 
-## 📖 References
+##  References
 
 - **VGG16**: Simonyan, K., & Zisserman, A. (2014). "Very Deep Convolutional Networks for Large-Scale Image Recognition"
 - **MobileNetV2**: Sandler, M., et al. (2018). "MobileNetV2: Inverted Residuals and Linear Bottlenecks"
 - **Transfer Learning**: Pan, S. J., & Yang, Q. (2010). "A Survey on Transfer Learning"
 
-## 🎓 Educational Use
+##  Educational Use
 
 This project is ideal for:
 - Learning deep learning fundamentals
@@ -302,11 +302,11 @@ This project is ideal for:
 - Comparing CNN architectures
 - Implementing K-Fold validation
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 **Important**: This is an educational project and should NOT be used for actual medical diagnosis. Always consult qualified healthcare professionals for medical decisions.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Areas for improvement:
 - [ ] Add more data augmentation techniques
@@ -316,7 +316,7 @@ Contributions are welcome! Areas for improvement:
 - [ ] Add explainability (Grad-CAM, LIME)
 - [ ] Expand dataset with more images
 
-## 📝 Version Info
+##  Version Info
 
 - **Version**: 1.0
 - **Python**: 3.7+
@@ -324,7 +324,7 @@ Contributions are welcome! Areas for improvement:
 - **Dataset Size**: 598 images
 - **File Size**: ~15 MB (notebook)
 
-## 📄 License
+##  License
 
 This project is available for educational and research purposes.
 
@@ -335,14 +335,10 @@ For questions, issues, or collaboration:
 - Check Google Colab documentation for runtime issues
 - Review TensorFlow/Keras documentation for API details
 
-## 🏆 Acknowledgments
+##  Acknowledgments
 
 - Google Colab for providing free GPU resources
 - TensorFlow/Keras teams for excellent deep learning frameworks
 - Medical imaging community for dataset contributions
 
----
 
-**Built with ❤️ for advancing medical AI research**
-
-*Keywords: Glaucoma Detection, Deep Learning, CNN, VGG16, MobileNetV2, Transfer Learning, Medical Imaging, Computer Vision, Binary Classification, Keras, TensorFlow*
