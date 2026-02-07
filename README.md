@@ -2,6 +2,7 @@
 
 A comprehensive deep learning project for automated glaucoma detection from retinal fundus images using CNN, VGG16, and MobileNetV2 architectures.
 
+![Samples per class](Samples%20per%20class.png)
 ##  Overview
 
 This project implements and compares three deep learning models for binary classification of retinal images to detect glaucoma. The models achieve high accuracy through transfer learning, fine-tuning, and K-Fold cross-validation.
@@ -164,6 +165,7 @@ Input (224×224×3)
 | **Custom CNN** | **98.0%** | **0.98** | **0.985** | **0.99** |
 | VGG16 | 95.0% | 0.95 | 0.950 | 0.97 |
 | MobileNetV2 | 92.0% | 0.92 | 0.915 | 0.95 |
+![Fine tuned CNN accuracy](fine%20tuned%20CNN%20accuracy.png)
 
 ### K-Fold Cross-Validation Results
 
@@ -178,7 +180,7 @@ Input (224×224×3)
 - p-value: 0.0324 (< 0.05)
 - **Conclusion**: Significant difference between models; CNN performs significantly better
 
-## 📈 Visualizations
+##  Visualizations
 
 The project generates the following visualizations:
 
@@ -272,7 +274,7 @@ print(f"Prediction: {result} (confidence: {prediction[0][0]:.2%})")
 - Learning Rate: 1e-4 (initial), 5e-7 (fine-tuning)
 - Unfrozen Layers: After layer 80
 - Dropout: 0.4
-
+![Model comparison](model%20comparison.png)
 ### Data Augmentation (Optional)
 
 ```python
