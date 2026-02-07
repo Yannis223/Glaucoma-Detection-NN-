@@ -165,6 +165,8 @@ Input (224×224×3)
 | **Custom CNN** | **98.0%** | **0.98** | **0.985** | **0.99** |
 | VGG16 | 95.0% | 0.95 | 0.950 | 0.97 |
 | MobileNetV2 | 92.0% | 0.92 | 0.915 | 0.95 |
+
+
 ![Fine tuned CNN accuracy](fine%20tuned%20CNN%20accuracy.png)
 
 ### K-Fold Cross-Validation Results
